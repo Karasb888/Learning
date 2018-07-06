@@ -1,0 +1,267 @@
+@font-face {
+    font-family: BebasBold; /* Гарнитура шрифта */
+    src: url(fonts/BebasNeueBold.otf)
+  }
+  @font-face {
+    font-family: BebasRegular;
+    src:url(fonts/BebasNeueRegular.otf);
+  }
+body{
+  background-image: url(image/elements/bottom-element.png);
+  background-position: left bottom ;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  max-width: 100%;
+}
+
+.logotype {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.logotype li {
+  display: inline-block;
+}
+
+.logotype.li span {
+  float: right;
+}
+
+.logo {
+  width: 65px;
+}
+
+.website {
+  font-size: 20px;
+  color: white;
+}
+
+.website.span.span {
+  font-size: 5px;
+}
+
+.HeadText {
+  font-family:'BebasRegular';
+  line-height: 0.8em;
+  letter-spacing: 0;
+  position: absolute;
+  display: inline-block;
+  margin-left: 5%;
+  top: 20%;
+  font-size: 80px;
+  color: white;
+}
+
+.HeadText span {
+  font-family: 'BebasBold';
+  color: #00a9e8;
+}
+
+.element {
+  position: relative;
+  max-width: 100%;
+  margin: -37% 0 0 0;
+}
+
+.WhyW {
+  font-size: 18px;
+  width: 450px;
+  margin: 0 0 0 50px;
+}
+
+.WhyW b {
+  font-size: 27px;
+  color: #00a9e8;
+}
+
+.WhyW ul {
+  list-style-type: none;
+}
+
+.WhyW img {
+  float: left;
+}
+
+.WhyW li {
+  padding-top: 10px;
+  height: 70px;
+}
+
+.WhyW img {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.AboutUs {
+  line-height: 1.3em;
+  width: 450px;
+  font-size: 18px;
+  margin: 0 0 30px 50px;
+}
+
+.AboutUs b {
+  line-height: 2em;
+  font-size: 27px;
+  color: #00a9e8;
+}
+
+.OurServices {
+
+  margin-right: 15px;
+  margin-left:50px;
+  float: right;
+  width: 450px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.3em;
+}
+
+.OurServices ul {
+  list-style-type: none;
+}
+
+.OurServices img {
+  padding-right: 10px;
+  width: 100px;
+}
+
+.OurServices li {
+  padding-top: 40px;
+}
+
+.OurServices b {
+  line-height: 1.5em;
+  font-size: 25px;
+}
+
+.OurServices-head {
+  line-height: 2em;
+  color: #00a9e8;
+  font-size: 27px;
+}
+
+.Marketing {
+  height: 158px;
+}
+
+.Marketing-img {
+  float: left;
+  height: 150px;
+  width: auto;
+}
+
+.Finance {
+  height: 158px;
+}
+
+.Finance-img {
+  float: left;
+  height: 150px;
+  width: auto:;
+}
+
+.Finance img {
+  float: left;
+}
+
+.Design {
+  height: 158px;
+}
+
+.Design-img {
+  float: left;
+  height: 150px;
+  width: auto;
+}
+
+.Design img {
+  float: left;
+}
+
+.head1 {
+  display: block;
+  float: left;
+}
+.jopa{
+
+}
+.QR {
+float: left;
+left:10%;
+margin: 20px 40px 20px  0;
+}
+
+.QR img {
+  width: 180px;
+}
+.contacts{
+  float: right;
+
+}
+.contacts li {
+  font-size: 16px;
+  float: left;
+  height: 80px;
+  width: 270px;
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+.contacts img {
+  width: 40px;
+  height: 40px;
+}
+
+.contacts-container {
+  float: left;
+  height: 75px;
+  width: auto;
+}
+.clearfix{
+  display: block;
+  clear: both;
+}
+
+.location-container {
+  float: left;
+  height: 75px;
+  width: auto;
+}
+.footer{
+  width: 90%;
+  margin: 20px auto 0;
+}
+@media screen and (max-width: 980px){
+.OurServices{
+  float:left;
+}
+.QR, .contacts{
+  float: none;
+  margin: 10px auto 0;
+}
+.QR img{
+  display: block;
+  margin: 0 auto;
+}
+.contacts li{
+  width: 50%;
+}
+.HeadText{
+  font-size: 5.5vw;
+
+}
+}
+@media screen and (max-width: 512px){
+  .HeadText{
+    font-size:28px;
+  }
